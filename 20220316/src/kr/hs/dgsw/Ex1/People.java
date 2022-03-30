@@ -18,7 +18,9 @@ public class People {
 	}
 	
 	public String isFat() {
+		
 		String Fat;
+		
 		if(this.BMI < 20) {
 			Fat = "저체중";
 		}
@@ -28,6 +30,7 @@ public class People {
 		else {
 			Fat = "과체중";
 		}
+		
 		return Fat;
 	}
 	

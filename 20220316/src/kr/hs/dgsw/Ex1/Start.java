@@ -12,14 +12,13 @@ public class Start {
 		culsu.weight = 90;
 		culsu.BMI = culsu.calBMI();
 		culsu.Fat = culsu.isFat();
+		culsu.printBMI(culsu.name, culsu.BMI, culsu.Fat);
 		
 		yunghe.name = "yunghe";
 		yunghe.height = 165;
 		yunghe.weight = 55;
 		yunghe.BMI = yunghe.calBMI();
 		yunghe.Fat = yunghe.isFat();
-		
-		culsu.printBMI(culsu.name, culsu.BMI, culsu.Fat);
 		yunghe.printBMI(yunghe.name, yunghe.BMI, yunghe.Fat);
 		
 	}
