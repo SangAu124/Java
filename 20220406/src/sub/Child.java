@@ -8,9 +8,9 @@ public class Child extends AccessModifiler {
 		Child child = new Child();
 		
 		child.publicValue = 4;
-		child.privateValue = 5;
+//		child.privateValue = 5;
 		child.protectedValue = 3;
-		child.defaultValue = 2;
+//		child.defaultValue = 2;
 		
 	}
 	

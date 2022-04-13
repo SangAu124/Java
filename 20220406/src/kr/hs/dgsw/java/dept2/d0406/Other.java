@@ -6,7 +6,7 @@ public class Other {
 		AccessModifiler accessModifiler = new AccessModifiler();
 		
 		accessModifiler.publicValue = 5;
-		accessModifiler.privateValue = 3;
+//		accessModifiler.privateValue = 3;
 		accessModifiler.protectedValue = 4;
 		accessModifiler.defaultValue = 1;
 		
