@@ -117,7 +117,7 @@ public class FileStudy {
 		File[] childrenFiles = dir.listFiles();
 		
 		for (File file : childrenFiles) {
-			System.out.println(file.getAbsolutePath());
+			System.out.println(file.getName());
 		}
 		
 	}
@@ -141,7 +141,10 @@ public class FileStudy {
 	
 	public static void main(String[] args) throws Exception {
 		FileStudy fileStudy = new FileStudy();
-		fileStudy.studyManage();
+		
+		fileStudy.studyFileData();
+//		fileStudy.studyList();
+//		fileStudy.studyManage();
 //		fileStudy.studyList();
 		
 //		File file = new File("/Users/gimsang-eun/공부/자바/재봉/File");
