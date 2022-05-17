@@ -10,7 +10,25 @@ public class CommandCd extends AbstractCommand {
 
 	@Override
 	public File executeCommand() {
-		// TODO
-		return null;
+		String[] inputArgs = commandLine.split(" ");
+		
+		
+		if (inputArgs[1].equals("..")) {
+			if (currentDirectory.getParentFile() != null) {
+				return currentDirectory.getParentFile();
+			} else {
+				System.out.println("cannot find the path");
+				return currentDirectory;
+			}
+		} else {
+			File isFileValid = new File(currentDirectory + "/" + inputArgs[1]);
+			if (isFileValid.exists() && isFileValid.isDirectory()) {
+				return isFileValid;
+			}
+			else {
+				System.out.println("cannot find the path");
+				return currentDirectory;
+			}
+		}
 	}
 }
