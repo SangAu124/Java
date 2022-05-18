@@ -12,7 +12,6 @@ public class CommandCd extends AbstractCommand {
 	public File executeCommand() {
 		String[] inputArgs = commandLine.split(" ");
 		
-		
 		if (inputArgs[1].equals("..")) {
 			if (currentDirectory.getParentFile() != null) {
 				return currentDirectory.getParentFile();
