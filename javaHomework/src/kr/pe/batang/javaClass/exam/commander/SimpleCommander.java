@@ -11,7 +11,7 @@ public class SimpleCommander {
 	
 	public SimpleCommander() {
 		this.scanner = new Scanner(System.in);
-		this.currentDirectory = new File("/Users"); // Mac은 Users
+		this.currentDirectory = new File("/Users/gimsang-eun/공부/2.2학년"); // Mac은 Users
 	}
 
 	public void execute() {
@@ -60,7 +60,7 @@ public class SimpleCommander {
 		String path = this.currentDirectory.getAbsolutePath();
 		
 		buffer.append(path);
-		buffer.append("> ");
+		buffer.append(" > ");
 		
 		System.out.print(buffer.toString());
 	}
