@@ -1,6 +1,4 @@
-package JaeBongs_Code;
-
-import com.sun.tools.javac.Main;
+package JaeBongs_Code.First.StrategyPattern;
 
 import java.util.Scanner;
 

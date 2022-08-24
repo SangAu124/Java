@@ -1,4 +1,4 @@
-package JaeBongs_Code;
+package JaeBongs_Code.First.TemplePattern;
 
 import java.util.Scanner;
 

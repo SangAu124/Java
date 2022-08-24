@@ -1,6 +1,4 @@
-package JaeBongs_Code;
-
-import java.util.Scanner;
+package JaeBongs_Code.First.TemplePattern;
 
 public class SayHello extends Parent{
 

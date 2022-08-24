@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="113e9cee-6705-4170-b156-23466b0eb175" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JaeBongs_Code/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JaeBongs_Code/Doer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JaeBongs_Code/MainJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JaeBongs_Code/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JaeBongs_Code/SayHello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter/CounterMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SayHello/SayHelloMain.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JaeBongs_Code/First/StrategyPattern/CounterDoer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JaeBongs_Code/First/StrategyPattern/SayHelloDoer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JaeBongs_Code/Second/StrategyPattern/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JaeBongs_Code/Second/TemplatePattern/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JaeBongs_Code/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JaeBongs_Code/First/TemplePattern/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JaeBongs_Code/Doer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JaeBongs_Code/First/StrategyPattern/Doer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JaeBongs_Code/MainJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JaeBongs_Code/First/StrategyPattern/MainJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JaeBongs_Code/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JaeBongs_Code/First/TemplePattern/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JaeBongs_Code/SayHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JaeBongs_Code/First/TemplePattern/SayHello.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,13 +49,13 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Counter">
+  <component name="RunManager" selected="애플리케이션.SayHelloDoer">
     <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JaeBongs_Code.Counter" />
+      <option name="MAIN_CLASS_NAME" value="JaeBongs_Code.First.TemplePattern.Counter" />
       <module name="_20220824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JaeBongs_Code.*" />
+          <option name="PATTERN" value="JaeBongs_Code.First.StrategyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,11 +64,24 @@
       </method>
     </configuration>
     <configuration name="SayHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JaeBongs_Code.SayHello" />
+      <option name="MAIN_CLASS_NAME" value="JaeBongs_Code.First.TemplePattern.SayHello" />
       <module name="_20220824" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JaeBongs_Code.*" />
+          <option name="PATTERN" value="JaeBongs_Code.First.StrategyPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SayHelloDoer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JaeBongs_Code.First.StrategyPattern.SayHelloDoer" />
+      <module name="_20220824" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JaeBongs_Code.First.StrategyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.SayHelloDoer" />
         <item itemvalue="애플리케이션.Counter" />
         <item itemvalue="애플리케이션.SayHello" />
       </list>
@@ -89,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661308269354</updated>
-      <workItem from="1661308270731" duration="6759000" />
+      <workItem from="1661308270731" duration="8474000" />
     </task>
     <servers />
   </component>
