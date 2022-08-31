@@ -1,4 +1,4 @@
-package JaeBongs_Code.First.StrategyPattern;
+package JaeBongs_Code.pattern.First.StrategyPattern;
 
 import java.util.Scanner;
 

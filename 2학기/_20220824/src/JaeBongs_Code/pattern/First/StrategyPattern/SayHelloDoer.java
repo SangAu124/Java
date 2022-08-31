@@ -1,4 +1,4 @@
-package JaeBongs_Code.First.StrategyPattern;
+package JaeBongs_Code.pattern.First.StrategyPattern;
 
 public class SayHelloDoer implements Doer {
     @Override
